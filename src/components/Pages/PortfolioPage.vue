@@ -25,8 +25,8 @@ onMounted(() => {
   <div class="relative container py-36">
     <h2 class="text-center pb-10">See what I've been working on</h2>
     <div class="grid gap-10">
-      <div class="grid grid-cols-2 gap-8">
-        <div>
+      <div class="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 lg:mx-0 lg:max-w-none lg:grid-cols-3 lg:items-start lg:gap-y-10">
+        <div class="lg:sticky lg:top-6 lg:col-start-1 lg:col-span-1 lg:row-span-1 lg:row-start-1 lg:overflow-hidden">
           <h3>SMESU Explorer Scouts</h3>
           <p class="text-gray-600">Freelance</p>
           <p>
@@ -35,30 +35,34 @@ onMounted(() => {
           <p>Prototyped using Figma. Built using Astro, styled with SASS.</p>
           <p>Website still in development.</p>
         </div>
-        <div class="grid grid-cols-2 gap-8">
-          <img
-            class="col-span-2"
-            src="/src/images/loomer-medical-group/Desktop-1.png"
-            alt="Screenshot of the homepage on desktop"
-          />
-          <img
-            src="/src/images/loomer-medical-group/Desktop-Training.png"
-            alt="Screenshot of the Training page on desktop"
-          />
-          <img
-            src="/src/images/loomer-medical-group/Desktop-Carehome-2.png"
-            alt="Screenshot of the Care Home page"
-          />
-          <img
-            src="/src/images/loomer-medical-group/Mobile-2.png"
-            alt="Screenshot on mobile"
-            class="h-48"
-          />
-          <img
-            src="/src/images/loomer-medical-group/Mobile-3.png"
-            alt="Screenshot on mobile"
-            class="h-48"
-          />
+        <div class="lg:col-span-2 lg:col-start-2 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl">
+            <div class="grid grid-cols-2 gap-8">
+            <img
+              class="col-span-2 rounded shadow"
+              src="/src/images/loomer-medical-group/Desktop-1.png"
+              alt="Screenshot of the homepage on desktop"
+            />
+            <img
+              class="col-span-2 rounded shadow"
+              src="/src/images/loomer-medical-group/Desktop-Training.png"
+              alt="Screenshot of the Training page on desktop"
+            />
+            <img
+              class="col-span-2 rounded shadow"
+              src="/src/images/loomer-medical-group/Desktop-Carehome-2.png"
+              alt="Screenshot of the Care Home page"
+            />
+            <img
+              src="/src/images/loomer-medical-group/Mobile-2.png"
+              alt="Screenshot on mobile"
+              class="h-56 mx-auto"
+            />
+            <img
+              src="/src/images/loomer-medical-group/Mobile-3.png"
+              alt="Screenshot on mobile"
+              class="h-56 mx-auto"
+            />
+          </div>
         </div>
       </div>
       <div class="grid grid-cols-2 gap-8">
@@ -74,27 +78,29 @@ onMounted(() => {
         </div>
         <div class="grid grid-cols-2 gap-8">
           <img
-            class="col-span-2"
+            class="col-span-2 rounded shadow"
             src="/src/images/loomer-medical-group/Desktop-1.png"
             alt="Screenshot of the homepage on desktop"
           />
           <img
+            class="col-span-2 rounded shadow"
             src="/src/images/loomer-medical-group/Desktop-Training.png"
             alt="Screenshot of the Training page on desktop"
           />
           <img
+            class="col-span-2 rounded shadow"
             src="/src/images/loomer-medical-group/Desktop-Carehome-2.png"
             alt="Screenshot of the Care Home page"
           />
           <img
             src="/src/images/loomer-medical-group/Mobile-2.png"
             alt="Screenshot on mobile"
-            class="h-48"
+            class="h-56 mx-auto"
           />
           <img
             src="/src/images/loomer-medical-group/Mobile-3.png"
             alt="Screenshot on mobile"
-            class="h-48"
+            class="h-56 mx-auto"
           />
         </div>
       </div>
@@ -117,25 +123,27 @@ onMounted(() => {
           <img
             src="/src/images/camden-health-partnership/Desktop-1.png"
             alt="Screenshot of the website"
-            class="col-span-2"
+            class="col-span-2 rounded shadow"
           />
           <img
+            class="col-span-2 rounded shadow"
             src="/src/images/camden-health-partnership/Desktop-3.png"
             alt="Screenshot of the website"
           />
           <img
+            class="col-span-2 rounded shadow"
             src="/src/images/camden-health-partnership/Desktop-Contact.png"
             alt="Screenshot of the website"
           />
           <img
             src="/src/images/camden-health-partnership/Mobile-1.png"
             alt="Screenshot of the website on a mobile"
-            class="h-48"
+            class="h-56 mx-auto"
           />
           <img
             src="/src/images/camden-health-partnership/Mobile-2.png"
             alt="Screenshot of the website on a mobile"
-            class="h-48"
+            class="h-56 mx-auto"
           />
         </div>
       </div>
@@ -166,25 +174,22 @@ onMounted(() => {
           <img
             src="/src/images/KMP/Desktop-Landing.png"
             alt="Screenshot of the website"
-            class="col-span-2"
+            class="col-span-2 rounded shadow"
           />
           <img
-            src="/src/images/KMP/Desktop-1.png"
-            alt="Screenshot of the website"
-          />
-          <img
+            class="col-span-2 rounded shadow"
             src="/src/images/KMP/Desktop-2.png"
             alt="Screenshot of the website"
           />
           <img
             src="/src/images/KMP/Laptop-1.png"
-            alt="Screenshot of the website on a mobile"
-            class=""
+            alt="Screenshot of the website on a laptop"
+            class="col-span-2"
           />
           <img
             src="/src/images/KMP/Mobile-1.png"
             alt="Screenshot of the website on a mobile"
-            class="h-48"
+            class="h-56 mx-auto col-span-2"
           />
         </div>
       </div>
@@ -210,18 +215,18 @@ onMounted(() => {
         <div class="grid grid-cols-2 gap-8">
           <img
             src="/src/images/TROE/Desktop-3.png"
-            alt="Screenshot of the website on a laptop"
-            class="col-span-2"
+            alt="Screenshot of the website"
+            class="col-span-2 rounded shadow"
           />
           <img
             src="/src/images/TROE/mobile-3.png"
             alt="Screenshot of the website on a mobile"
-            class="h-48"
+            class="h-56 mx-auto"
           />
           <img
             src="/src/images/TROE/mobile-1.png"
             alt="Screenshot of the website on a mobile"
-            class="h-48"
+            class="h-56 mx-auto"
           />
         </div>
       </div>
