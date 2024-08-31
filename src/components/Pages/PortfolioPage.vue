@@ -28,9 +28,9 @@ onMounted(() => {
       <div class="grid grid-cols-2 gap-8">
         <div>
           <h3>SMESU Explorer Scouts</h3>
-          <p>Freelance</p>
+          <p class="text-gray-600">Freelance</p>
           <p>
-            My old Explorer Scout group needed a new website to prospective members find out more and get in touch.
+            My old Explorer Scout group needed a new website to let prospective members find out more and get in touch.
           </p>
           <p>Prototyped using Figma. Built using Astro, styled with SASS.</p>
           <p>Website still in development.</p>
