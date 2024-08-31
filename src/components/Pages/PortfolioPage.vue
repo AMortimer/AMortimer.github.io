@@ -27,6 +27,42 @@ onMounted(() => {
     <div class="grid gap-10">
       <div class="grid grid-cols-2 gap-8">
         <div>
+          <h3>SMESU Explorer Scouts</h3>
+          <p>Freelance</p>
+          <p>
+            My old Explorer Scout group needed a new website to prospective members find out more and get in touch.
+          </p>
+          <p>Prototyped using Figma. Built using Astro, styled with SASS.</p>
+          <p>Website still in development.</p>
+        </div>
+        <div class="grid grid-cols-2 gap-8">
+          <img
+            class="col-span-2"
+            src="/src/images/loomer-medical-group/Desktop-1.png"
+            alt="Screenshot of the homepage on desktop"
+          />
+          <img
+            src="/src/images/loomer-medical-group/Desktop-Training.png"
+            alt="Screenshot of the Training page on desktop"
+          />
+          <img
+            src="/src/images/loomer-medical-group/Desktop-Carehome-2.png"
+            alt="Screenshot of the Care Home page"
+          />
+          <img
+            src="/src/images/loomer-medical-group/Mobile-2.png"
+            alt="Screenshot on mobile"
+            class="h-48"
+          />
+          <img
+            src="/src/images/loomer-medical-group/Mobile-3.png"
+            alt="Screenshot on mobile"
+            class="h-48"
+          />
+        </div>
+      </div>
+      <div class="grid grid-cols-2 gap-8">
+        <div>
           <h3>Loomer Medical Group</h3>
           <p>Tree View Designs Ltd</p>
           <p>
