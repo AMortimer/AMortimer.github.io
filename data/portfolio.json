@@ -1,0 +1,16 @@
+[
+    {
+        "id": 1,
+        "title": "Loomer Medical Group",
+        "body": "<p>This project required several beans.</p>",
+        "thumbnail":
+            [ "public/images/loomer-medical-group/Desktop-1", "/public/images/loomer-medical-group/Desktop-Homecare", "/public/images/loomer-medical-group/Mobile-2" ]
+    },
+    {
+        "id": 2,
+        "title": "Camden Health Partners",
+        "body": "<p>This project required even more beans.</p>",
+        "thumbnail":
+            [ "/public/images/loomer-medical-group/Desktop-1", "/public/images/loomer-medical-group/Desktop-Homecare", "/public/images/loomer-medical-group/Mobile-2" ]
+    }
+]

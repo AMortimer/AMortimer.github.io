@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: Raleway, system-ui, sans-serif;
+  }
+    h1,h2,h3,h4,h5,h6 {
+      @apply font-medium
+    }
+    h1 {
+      @apply text-3xl pb-4;
+    }
+    h2 {
+      @apply text-2xl pb-3;
+    }
+    h3 {
+      @apply text-xl pb-3;
+    }
+    p {
+        @apply leading-loose;
+    }
+    a {
+      @apply border-b border-amber-100 hover:border-yellow-300;
+    }
+  }
