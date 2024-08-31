@@ -1,5 +1,5 @@
 <template>    
-<body class="bg-zinc-200">
+<body class="bg-zinc-100">
     <Navbar />
     <main>
         <RouterView />

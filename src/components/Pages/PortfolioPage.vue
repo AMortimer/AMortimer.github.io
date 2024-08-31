@@ -23,17 +23,21 @@ onMounted(() => {
     </div>
   </div>-->
   <div class="relative container py-36">
-    <h2 class="text-center pb-10">See what I've been working on</h2>
-    <div class="grid gap-10">
+    <h1 class="text-center pb-20">See what I've been working on</h1>
+    <div class="grid gap-32">
       <div class="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 lg:mx-0 lg:max-w-none lg:grid-cols-3 lg:items-start lg:gap-y-10">
         <div class="lg:sticky lg:top-6 lg:col-start-1 lg:col-span-1 lg:row-span-1 lg:row-start-1 lg:overflow-hidden">
-          <h3>SMESU Explorer Scouts</h3>
-          <p class="text-gray-600">Freelance</p>
+          <h2>SMESU Explorer Scouts</h2>
+          <p class="text-gray-600 text-base">Freelance</p>
           <p>
             My old Explorer Scout group needed a new website to let prospective members find out more and get in touch.
           </p>
-          <p>Prototyped using Figma. Built using Astro, styled with SASS.</p>
-          <p>Website still in development.</p>
+          <ul>
+            <li>Prototyped using Figma.</li>
+            <li>Built and deployed using HTML, Javascript, Astro.</li>
+            <li>Styled with SASS.</li>
+          </ul>
+          <p class="italic text-gray-600 text-sm">Website still in development.</p>
         </div>
         <div class="lg:col-span-2 lg:col-start-2 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl">
             <div class="grid grid-cols-2 gap-8">
@@ -65,17 +69,22 @@ onMounted(() => {
           </div>
         </div>
       </div>
-      <div class="grid grid-cols-2 gap-8">
-        <div>
-          <h3>Loomer Medical Group</h3>
-          <p>Tree View Designs Ltd</p>
+      <div class="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 lg:mx-0 lg:max-w-none lg:grid-cols-3 lg:items-start lg:gap-y-10">
+        <div class="lg:sticky lg:top-6 lg:col-start-1 lg:col-span-1 lg:row-span-1 lg:row-start-1 lg:overflow-hidden">
+          <h2>Loomer Medical Group</h2>
+          <p class="text-gray-600 text-base">Tree View Designs Ltd</p>
           <p>
             The corporate face of an NHS-affiliated healthcare organisation,
             this site has been designed to advertise their private services.
           </p>
-          <p>Built using a custom CMS, styled with Tailwind CSS.</p>
-          <p>Website still in development.</p>
+          <ul>
+            <li>Built with custom CMS</li>
+            <li>Deployed with Laravel Forge.</li>
+            <li>Styled with Tailwind CSS.</li>
+          </ul>
+          <p class="italic text-gray-600 text-sm">Website still in development.</p>
         </div>
+        <div class="lg:col-span-2 lg:col-start-2 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl">
         <div class="grid grid-cols-2 gap-8">
           <img
             class="col-span-2 rounded shadow"
@@ -103,22 +112,27 @@ onMounted(() => {
             class="h-56 mx-auto"
           />
         </div>
+        </div>
       </div>
-      <div class="grid grid-cols-2 gap-8">
-        <div>
-          <h3>Camden Health Partners</h3>
-          <p>Tree View Designs Ltd</p>
+      <div class="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 lg:mx-0 lg:max-w-none lg:grid-cols-3 lg:items-start lg:gap-y-10">
+        <div class="lg:sticky lg:top-6 lg:col-start-1 lg:col-span-1 lg:row-span-1 lg:row-start-1 lg:overflow-hidden">
+          <h2>Camden Health Partners</h2>
+          <p class="text-gray-600 text-base">Freelance</p>
           <p>
             Patient-facing website for a London-based healthcare partnership to
             advertise their services.
           </p>
-          <p>
-            Built using a custom CMS, styled with Tailwind CSS. Attractive
+          <p>Attractive
             London imagery gave this site a personalised feel and enhanced its
-            visual appeal.
-          </p>
-          <p>Website still in development.</p>
+            visual appeal.</p>
+          <ul>
+            <li>Built with custom CMS</li>
+            <li>Deployed with Laravel Forge.</li>
+            <li>Styled with Tailwind CSS.</li>
+          </ul>
+          <p class="italic text-gray-600 text-sm">Website still in development.</p>
         </div>
+        <div class="lg:col-span-2 lg:col-start-2 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl">
         <div class="grid grid-cols-2 gap-8">
           <img
             src="/src/images/camden-health-partnership/Desktop-1.png"
@@ -146,20 +160,20 @@ onMounted(() => {
             class="h-56 mx-auto"
           />
         </div>
+        </div>
       </div>
-      <div class="grid grid-cols-2 gap-8">
-        <div>
-          <h3>Keston and Moorings Practice</h3>
-          <p>Tree View Designs Ltd</p>
+      <div class="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 lg:mx-0 lg:max-w-none lg:grid-cols-3 lg:items-start lg:gap-y-10">
+        <div class="lg:sticky lg:top-6 lg:col-start-1 lg:col-span-1 lg:row-span-1 lg:row-start-1 lg:overflow-hidden">
+          <h2>Keston and Moorings Practice</h2>
+          <p class="text-gray-600 text-base">Freelance</p>
           <p>
-            Patient-facing website for a London-based healthcare partnership to
-            advertise their services.
+            Website for a General Practice partnership based in London. Designed two visually matching general practice websites plus a landing page to act as a directory.
           </p>
-          <p>
-            Built using a custom CMS, styled with Tailwind CSS. Attractive
-            London imagery gave this site a personalised feel and enhanced its
-            visual appeal.
-          </p>
+          <ul>
+            <li>Built with custom CMS</li>
+            <li>Deployed with Laravel Forge.</li>
+            <li>Styled with Tailwind CSS.</li>
+          </ul>
           <p>
             <a
               href="https://www.kestonmooringsmedical.co.uk/"
@@ -170,7 +184,8 @@ onMounted(() => {
             </a>
           </p>
         </div>
-        <div class="grid grid-cols-2 gap-8">
+        <div class="lg:col-span-2 lg:col-start-2 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl">
+        <div class="grid grid-cols-2 gap-8 items-end">
           <img
             src="/src/images/KMP/Desktop-Landing.png"
             alt="Screenshot of the website"
@@ -184,24 +199,24 @@ onMounted(() => {
           <img
             src="/src/images/KMP/Laptop-1.png"
             alt="Screenshot of the website on a laptop"
-            class="col-span-2"
           />
           <img
             src="/src/images/KMP/Mobile-1.png"
             alt="Screenshot of the website on a mobile"
-            class="h-56 mx-auto col-span-2"
+            class="h-56 mx-auto"
           />
         </div>
+        </div>
       </div>
-      <div class="grid grid-cols-2 gap-8">
-        <div>
-          <h3>The Rules of English</h3>
+      <div class="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 lg:mx-0 lg:max-w-none lg:grid-cols-3 lg:items-start lg:gap-y-10">
+        <div class="lg:sticky lg:top-6 lg:col-start-1 lg:col-span-1 lg:row-span-1 lg:row-start-1 lg:overflow-hidden">
+          <h2>The Rules of English</h2>
           <p>Freelance</p>
           <p>
             Website for a writer to display resources on the English language
             and to sell two eBooks relating to the content.
           </p>
-          <p>Built using a SquareSpace.</p>
+          <ul><li>Built using a SquareSpace.</li></ul>
           <p>
             <a
               href="https://therulesofenglish.com/"
@@ -212,6 +227,7 @@ onMounted(() => {
             </a>
           </p>
         </div>
+        <div class="lg:col-span-2 lg:col-start-2 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl">
         <div class="grid grid-cols-2 gap-8">
           <img
             src="/src/images/TROE/Desktop-3.png"
@@ -228,6 +244,7 @@ onMounted(() => {
             alt="Screenshot of the website on a mobile"
             class="h-56 mx-auto"
           />
+        </div>
         </div>
       </div>
     </div>
