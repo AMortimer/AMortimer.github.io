@@ -1,6 +1,9 @@
 <script setup>
 import { RouterLink } from "vue-router";
 import { onMounted, ref } from "vue";
+import IconWrench from "../Icons/IconWrench.vue";
+import IconPaintbrush from "../Icons/IconPaintbrush.vue";
+import IconLightbulb from "../Icons/IconLightbulb.vue";
 
 const portfolio = ref([]);
 
@@ -32,10 +35,10 @@ onMounted(() => {
           <p>
             My old Explorer Scout group needed a new website to let prospective members find out more and get in touch.
           </p>
-          <ul>
-            <li>Prototyped using Figma.</li>
-            <li>Built and deployed using HTML, Javascript, Astro.</li>
-            <li>Styled with SASS.</li>
+          <ul class="text-sm">
+            <li class="inline-flex items-center gap-2"><IconLightbulb class="text-sky-900" /> Prototyped using Figma.</li>
+            <li class="inline-flex items-center gap-2"><IconWrench class="text-sky-900" />Built and deployed using HTML, Javascript, Astro.</li>
+            <li class="inline-flex items-center gap-2"><IconPaintbrush class="text-sky-900" />Styled with SASS.</li>
           </ul>
           <p class="italic text-gray-600 text-sm">Website still in development.</p>
         </div>
@@ -43,28 +46,8 @@ onMounted(() => {
             <div class="grid grid-cols-2 gap-8">
             <img
               class="col-span-2 rounded shadow"
-              src="/src/images/loomer-medical-group/Desktop-1.png"
+              src="/src/images/SMESU/smesu-hero-figma.png"
               alt="Screenshot of the homepage on desktop"
-            />
-            <img
-              class="col-span-2 rounded shadow"
-              src="/src/images/loomer-medical-group/Desktop-Training.png"
-              alt="Screenshot of the Training page on desktop"
-            />
-            <img
-              class="col-span-2 rounded shadow"
-              src="/src/images/loomer-medical-group/Desktop-Carehome-2.png"
-              alt="Screenshot of the Care Home page"
-            />
-            <img
-              src="/src/images/loomer-medical-group/Mobile-2.png"
-              alt="Screenshot on mobile"
-              class="h-56 mx-auto"
-            />
-            <img
-              src="/src/images/loomer-medical-group/Mobile-3.png"
-              alt="Screenshot on mobile"
-              class="h-56 mx-auto"
             />
           </div>
         </div>
@@ -77,10 +60,10 @@ onMounted(() => {
             The corporate face of an NHS-affiliated healthcare organisation,
             this site has been designed to advertise their private services.
           </p>
-          <ul>
-            <li>Built with custom CMS</li>
-            <li>Deployed with Laravel Forge.</li>
-            <li>Styled with Tailwind CSS.</li>
+          <ul class="text-base">
+            <li class="inline-flex items-center gap-2">Built with custom CMS</li>
+            <li class="inline-flex items-center gap-2">Deployed with Laravel Forge.</li>
+            <li class="inline-flex items-center gap-2">Styled with Tailwind CSS.</li>
           </ul>
           <p class="italic text-gray-600 text-sm">Website still in development.</p>
         </div>
@@ -125,10 +108,10 @@ onMounted(() => {
           <p>Attractive
             London imagery gave this site a personalised feel and enhanced its
             visual appeal.</p>
-          <ul>
-            <li>Built with custom CMS</li>
-            <li>Deployed with Laravel Forge.</li>
-            <li>Styled with Tailwind CSS.</li>
+          <ul class="text-base">
+            <li class="inline-flex items-center gap-2">Built with custom CMS</li>
+            <li class="inline-flex items-center gap-2">Deployed with Laravel Forge.</li>
+            <li class="inline-flex items-center gap-2">Styled with Tailwind CSS.</li>
           </ul>
           <p class="italic text-gray-600 text-sm">Website still in development.</p>
         </div>
@@ -169,10 +152,10 @@ onMounted(() => {
           <p>
             Website for a General Practice partnership based in London. Designed two visually matching general practice websites plus a landing page to act as a directory.
           </p>
-          <ul>
-            <li>Built with custom CMS</li>
-            <li>Deployed with Laravel Forge.</li>
-            <li>Styled with Tailwind CSS.</li>
+          <ul class="text-base">
+            <li class="inline-flex items-center gap-2">Built with custom CMS</li>
+            <li class="inline-flex items-center gap-2">Deployed with Laravel Forge.</li>
+            <li class="inline-flex items-center gap-2">Styled with Tailwind CSS.</li>
           </ul>
           <p>
             <a
@@ -216,7 +199,7 @@ onMounted(() => {
             Website for a writer to display resources on the English language
             and to sell two eBooks relating to the content.
           </p>
-          <ul><li>Built using a SquareSpace.</li></ul>
+          <ul class="text-base"><li class="inline-flex items-center gap-2">Built using a SquareSpace.</li></ul>
           <p>
             <a
               href="https://therulesofenglish.com/"
