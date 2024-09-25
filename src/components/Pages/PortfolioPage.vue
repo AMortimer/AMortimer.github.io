@@ -4,6 +4,7 @@ import { onMounted, ref } from "vue";
 import IconWrench from "../Icons/IconWrench.vue";
 import IconPaintbrush from "../Icons/IconPaintbrush.vue";
 import IconLightbulb from "../Icons/IconLightbulb.vue";
+import IconRocket from "../Icons/IconRocket.vue";
 
 const portfolio = ref([]);
 
@@ -60,12 +61,20 @@ onMounted(() => {
             The corporate face of an NHS-affiliated healthcare organisation,
             this site has been designed to advertise their private services.
           </p>
-          <ul class="text-base">
-            <li class="inline-flex items-center gap-2">Built with custom CMS</li>
-            <li class="inline-flex items-center gap-2">Deployed with Laravel Forge.</li>
-            <li class="inline-flex items-center gap-2">Styled with Tailwind CSS.</li>
+          <ul class="text-sm">
+            <li class="inline-flex items-center gap-2"><IconWrench class="text-sky-900" />Built with custom CMS and HTML5</li>
+            <li class="inline-flex items-center gap-2"><IconRocket class="text-sky-900" />Deployed with Laravel Forge.</li>
+            <li class="inline-flex items-center gap-2"><IconPaintbrush class="text-sky-900" />Styled with Tailwind CSS.</li>
           </ul>
-          <p class="italic text-gray-600 text-sm">Website still in development.</p>
+          <p>
+            <a
+              href="https://www.loomermedical.co.uk/"
+              target="_blank"
+              title="Loomer Medical Group (opens in new tab)"
+            >
+              Visit the live website
+            </a>
+          </p>
         </div>
         <div class="lg:col-span-2 lg:col-start-2 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl">
         <div class="grid grid-cols-2 gap-8">
@@ -108,10 +117,10 @@ onMounted(() => {
           <p>Attractive
             London imagery gave this site a personalised feel and enhanced its
             visual appeal.</p>
-          <ul class="text-base">
-            <li class="inline-flex items-center gap-2">Built with custom CMS</li>
-            <li class="inline-flex items-center gap-2">Deployed with Laravel Forge.</li>
-            <li class="inline-flex items-center gap-2">Styled with Tailwind CSS.</li>
+          <ul class="text-sm">
+            <li class="inline-flex items-center gap-2"><IconWrench class="text-sky-900" />Built with custom CMS</li>
+            <li class="inline-flex items-center gap-2"><IconRocket class="text-sky-900" />Deployed with Laravel Forge.</li>
+            <li class="inline-flex items-center gap-2"><IconPaintbrush class="text-sky-900" />Styled with Tailwind CSS.</li>
           </ul>
           <p class="italic text-gray-600 text-sm">Website still in development.</p>
         </div>
@@ -152,10 +161,9 @@ onMounted(() => {
           <p>
             Website for a General Practice partnership based in London. Designed two visually matching general practice websites plus a landing page to act as a directory.
           </p>
-          <ul class="text-base">
-            <li class="inline-flex items-center gap-2">Built with custom CMS</li>
-            <li class="inline-flex items-center gap-2">Deployed with Laravel Forge.</li>
-            <li class="inline-flex items-center gap-2">Styled with Tailwind CSS.</li>
+          <ul class="text-sm">
+            <li class="inline-flex items-center gap-2"><IconWrench class="text-sky-900" />Built with custom CMS and HTML5</li>
+            <li class="inline-flex items-center gap-2"><IconPaintbrush class="text-sky-900" />Styled with Tailwind CSS.</li>
           </ul>
           <p>
             <a
@@ -199,7 +207,7 @@ onMounted(() => {
             Website for a writer to display resources on the English language
             and to sell two eBooks relating to the content.
           </p>
-          <ul class="text-base"><li class="inline-flex items-center gap-2">Built using a SquareSpace.</li></ul>
+          <ul class="text-sm"><li class="inline-flex items-center gap-2"><IconWrench class="text-sky-900" />Built using SquareSpace.</li></ul>
           <p>
             <a
               href="https://therulesofenglish.com/"
