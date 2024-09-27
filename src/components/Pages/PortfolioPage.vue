@@ -26,20 +26,23 @@ onMounted(() => {
         </RouterLink>
     </div>
   </div>-->
-  <div class="relative container py-36">
-    <h1 class="text-center pb-20">See what I've been working on</h1>
+  <div>
+    <div class="py-10 bg-sky-900 text-white shadow w-full mb-28">
+      <div class="container"><h2 class="text-center">See what I've been working on</h2></div>
+    </div>
+    <div class="relative container">
     <div class="grid gap-32">
       <div class="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 lg:mx-0 lg:max-w-none lg:grid-cols-3 lg:items-start lg:gap-y-10">
         <div class="lg:sticky lg:top-6 lg:col-start-1 lg:col-span-1 lg:row-span-1 lg:row-start-1 lg:overflow-hidden">
-          <h2>SMESU Explorer Scouts</h2>
+          <h3>SMESU Explorer Scouts</h3>
           <p class="text-gray-600 text-base">Freelance</p>
           <p>
             My old Explorer Scout group needed a new website to let prospective members find out more and get in touch.
           </p>
           <ul class="text-sm">
-            <li class="inline-flex items-center gap-2"><IconLightbulb class="text-sky-900" /> Prototyped using Figma.</li>
-            <li class="inline-flex items-center gap-2"><IconWrench class="text-sky-900" />Built and deployed using HTML, Javascript, Astro.</li>
-            <li class="inline-flex items-center gap-2"><IconPaintbrush class="text-sky-900" />Styled with SASS.</li>
+            <li><span class="inline-flex items-center gap-2"><IconLightbulb class="text-sky-900" />Prototyped using Figma.</span></li>
+            <li><span class="inline-flex items-center gap-2"><IconWrench class="text-sky-900" />Built and deployed using HTML, Javascript, Astro.</span></li>
+            <li><span class="inline-flex items-center gap-2"><IconPaintbrush class="text-sky-900" />Styled with SASS.</span></li>
           </ul>
           <p class="italic text-gray-600 text-sm">Website still in development.</p>
         </div>
@@ -55,16 +58,16 @@ onMounted(() => {
       </div>
       <div class="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 lg:mx-0 lg:max-w-none lg:grid-cols-3 lg:items-start lg:gap-y-10">
         <div class="lg:sticky lg:top-6 lg:col-start-1 lg:col-span-1 lg:row-span-1 lg:row-start-1 lg:overflow-hidden">
-          <h2>Loomer Medical Group</h2>
+          <h3>Loomer Medical Group</h3>
           <p class="text-gray-600 text-base">Tree View Designs Ltd</p>
           <p>
             The corporate face of an NHS-affiliated healthcare organisation,
             this site has been designed to advertise their private services.
           </p>
           <ul class="text-sm">
-            <li class="inline-flex items-center gap-2"><IconWrench class="text-sky-900" />Built with custom CMS and HTML5</li>
-            <li class="inline-flex items-center gap-2"><IconRocket class="text-sky-900" />Deployed with Laravel Forge.</li>
-            <li class="inline-flex items-center gap-2"><IconPaintbrush class="text-sky-900" />Styled with Tailwind CSS.</li>
+            <li><span class="inline-flex items-center gap-2"><IconWrench class="text-sky-900" />Built with custom CMS and HTML5</span></li>
+            <li><span class="inline-flex items-center gap-2"><IconRocket class="text-sky-900" />Deployed with Laravel Forge.</span></li>
+            <li><span class="inline-flex items-center gap-2"><IconPaintbrush class="text-sky-900" />Styled with Tailwind CSS.</span></li>
           </ul>
           <p>
             <a
@@ -108,7 +111,7 @@ onMounted(() => {
       </div>
       <div class="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 lg:mx-0 lg:max-w-none lg:grid-cols-3 lg:items-start lg:gap-y-10">
         <div class="lg:sticky lg:top-6 lg:col-start-1 lg:col-span-1 lg:row-span-1 lg:row-start-1 lg:overflow-hidden">
-          <h2>Camden Health Partners</h2>
+          <h3>Camden Health Partners</h3>
           <p class="text-gray-600 text-base">Freelance</p>
           <p>
             Patient-facing website for a London-based healthcare partnership to
@@ -118,9 +121,9 @@ onMounted(() => {
             London imagery gave this site a personalised feel and enhanced its
             visual appeal.</p>
           <ul class="text-sm">
-            <li class="inline-flex items-center gap-2"><IconWrench class="text-sky-900" />Built with custom CMS</li>
-            <li class="inline-flex items-center gap-2"><IconRocket class="text-sky-900" />Deployed with Laravel Forge.</li>
-            <li class="inline-flex items-center gap-2"><IconPaintbrush class="text-sky-900" />Styled with Tailwind CSS.</li>
+            <li><span class="inline-flex items-center gap-2"><IconWrench class="text-sky-900" />Built with custom CMS.</span></li>
+            <li><span class="inline-flex items-center gap-2"><IconRocket class="text-sky-900" />Deployed with Laravel Forge.</span></li>
+            <li><span class="inline-flex items-center gap-2"><IconPaintbrush class="text-sky-900" />Styled with Tailwind CSS.</span></li>
           </ul>
           <p class="italic text-gray-600 text-sm">Website still in development.</p>
         </div>
@@ -156,14 +159,14 @@ onMounted(() => {
       </div>
       <div class="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 lg:mx-0 lg:max-w-none lg:grid-cols-3 lg:items-start lg:gap-y-10">
         <div class="lg:sticky lg:top-6 lg:col-start-1 lg:col-span-1 lg:row-span-1 lg:row-start-1 lg:overflow-hidden">
-          <h2>Keston and Moorings Practice</h2>
+          <h3>Keston and Moorings Practice</h3>
           <p class="text-gray-600 text-base">Freelance</p>
           <p>
             Website for a General Practice partnership based in London. Designed two visually matching general practice websites plus a landing page to act as a directory.
           </p>
           <ul class="text-sm">
-            <li class="inline-flex items-center gap-2"><IconWrench class="text-sky-900" />Built with custom CMS and HTML5</li>
-            <li class="inline-flex items-center gap-2"><IconPaintbrush class="text-sky-900" />Styled with Tailwind CSS.</li>
+            <li><span class="inline-flex items-center gap-2"><IconWrench class="text-sky-900" />Built with custom CMS and HTML5.</span></li>
+            <li><span class="inline-flex items-center gap-2"><IconPaintbrush class="text-sky-900" />Styled with Tailwind CSS.</span></li>
           </ul>
           <p>
             <a
@@ -201,13 +204,13 @@ onMounted(() => {
       </div>
       <div class="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 lg:mx-0 lg:max-w-none lg:grid-cols-3 lg:items-start lg:gap-y-10">
         <div class="lg:sticky lg:top-6 lg:col-start-1 lg:col-span-1 lg:row-span-1 lg:row-start-1 lg:overflow-hidden">
-          <h2>The Rules of English</h2>
+          <h3>The Rules of English</h3>
           <p>Freelance</p>
           <p>
             Website for a writer to display resources on the English language
             and to sell two eBooks relating to the content.
           </p>
-          <ul class="text-sm"><li class="inline-flex items-center gap-2"><IconWrench class="text-sky-900" />Built using SquareSpace.</li></ul>
+          <ul class="text-sm"><li><span class="inline-flex items-center gap-2"><IconWrench class="text-sky-900" />Built using SquareSpace.</span></li></ul>
           <p>
             <a
               href="https://therulesofenglish.com/"
@@ -240,4 +243,5 @@ onMounted(() => {
       </div>
     </div>
   </div>
+</div>
 </template>

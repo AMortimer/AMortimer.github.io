@@ -1,12 +1,14 @@
 <template>
-    <div class="h-screen content-center text-center">
-        <h1>Andy Mortimer</h1>
-        <h2>Welcome to my website.</h2>
-        <p>My name is Andy Mortimer.</p>
+    <div class="h-full">
+        <div class="text-center h-screen content-center">
+            <h1>My name is Andy Mortimer</h1>
+            <p>Welcome to my website.</p>
+        </div>
+        <PortfolioPage id="portfolio"/>
     </div>
   
 </template>
 
 <script setup>
-
+import PortfolioPage from './PortfolioPage.vue';
 </script>
