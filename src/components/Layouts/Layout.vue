@@ -1,10 +1,13 @@
 <template>    
-<body class="bg-zinc-100">
-    <Navbar />
+<body class="bg-gradient-to-tr from-zinc-900 to-slate-800 text-gray-50">
+    <div class="container">
+        <Navbar />
     <main>
         <RouterView />
     </main>
     <Footer />
+    </div>
+    
 </body>
   
 </template>

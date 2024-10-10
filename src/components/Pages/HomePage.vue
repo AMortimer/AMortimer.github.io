@@ -1,9 +1,10 @@
 <template>
     <div class="h-full">
-        <div class="container text-center h-screen content-center bg-gradient-to-t from-sky-900/30 to-zinc-100">
+        <div class="container text-center h-screen content-center">
             <h1>My name is Andy Mortimer</h1>
-            <p>Welcome to my website.</p>
+            <p class="text-xl">Welcome to my website.</p>
         </div>
+        <AboutMe id="about"/>
         <PortfolioPage id="portfolio"/>
     </div>
   
@@ -11,4 +12,5 @@
 
 <script setup>
 import PortfolioPage from './PortfolioPage.vue';
+import AboutMe from './AboutMe.vue'
 </script>

@@ -1,12 +1,16 @@
 <template>
-  <div class=" p-3">
-    <nav class="flex gap-3 justify-center">
+  <div class="p-3">
+    <nav class="flex justify-between">
       <!--
       <RouterLink to="/">Home</RouterLink>
       <RouterLink to="/portfolio">Portfolio</RouterLink>
       -->
       <a href="/">Home</a>
-      <a href="#portfolio">Portfolio</a>
+      <div class="flex gap-6">
+        <a href="#portfolio">Portfolio</a>
+        <a href="#about">About Me</a>
+      </div>
+      
     </nav>
   </div>
 </template>

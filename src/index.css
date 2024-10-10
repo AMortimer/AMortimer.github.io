@@ -14,13 +14,13 @@
       @apply leading-normal
     }
     h1 {
-      @apply text-3xl pb-4;
+      @apply text-4xl pb-4;
     }
     h2 {
-      @apply text-2xl pb-3;
+      @apply text-3xl pb-3 font-bold;
     }
     h3 {
-      @apply text-xl pb-3;
+      @apply text-2xl pb-3 font-semibold;
     }
     p {
         @apply leading-relaxed;
