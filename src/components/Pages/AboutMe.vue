@@ -4,7 +4,7 @@
       <div class="grid lg:grid-cols-2 items-center gap-8">
         <div>
           <h2>About Me</h2>
-          <p>Originally from Edinburgh, I recently relocated to Vancouver.</p>
+          <p>Originally from Edinburgh, Scotland, I have recently relocated to Vancouver, BC.</p>
           <p>
             I am constantly challenging myself to get better at what I do. I
             currently work as a front-end designer but I'm keen to broaden my

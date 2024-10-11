@@ -1,5 +1,5 @@
 <template>    
-<body class="bg-gradient-to-tr from-zinc-900 to-slate-800 text-gray-50">
+<body class="bg-gradient-to-tr from-zinc-800 to-slate-800 text-gray-50">
     <div class="container">
         <Navbar />
     <main>
