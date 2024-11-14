@@ -50,8 +50,7 @@ onMounted(() => {
             <ul class="text-sm">
               <li>
                 <span class="inline-flex items-center gap-2"
-                  ><IconWrench class="text-amber-300" />Built with custom CMS
-                  and HTML5</span
+                  ><IconWrench class="text-amber-300" />Built with custom headless CMS</span
                 >
               </li>
               <li>
@@ -131,7 +130,7 @@ onMounted(() => {
               <li>
                 <span class="inline-flex items-center gap-2"
                   ><IconWrench class="text-amber-300" />Built and deployed using
-                  HTML, Javascript, Astro.</span
+                  HTML, JavaScript, Astro.</span
                 >
               </li>
               <li>
@@ -141,8 +140,14 @@ onMounted(() => {
                 >
               </li>
             </ul>
-            <p class="italic text-zinc-300 text-sm">
-              Website still in development.
+            <p>
+              <a
+                href="https://smesu.netlify.app/"
+                target="_blank"
+                title="SMESU Netifly Prototype (opens in new tab)"
+              >
+                Visit the prototype website
+              </a>
             </p>
           </div>
           <div
@@ -177,7 +182,7 @@ onMounted(() => {
             <ul class="text-sm">
               <li>
                 <span class="inline-flex items-center gap-2"
-                  ><IconWrench class="text-amber-300" />Built with custom
+                  ><IconWrench class="text-amber-300" />Built with custom headless
                   CMS.</span
                 >
               </li>
@@ -246,7 +251,7 @@ onMounted(() => {
             <ul class="text-sm">
               <li>
                 <span class="inline-flex items-center gap-2"
-                  ><IconWrench class="text-amber-300" />Built with custom CMS
+                  ><IconWrench class="text-amber-300" />Built with custom headless CMS
                   and HTML5.</span
                 >
               </li>

@@ -7,8 +7,8 @@
       -->
       <a href="/">Home</a>
       <div class="flex gap-6">
-        <a href="#portfolio">Portfolio</a>
         <a href="#about">About Me</a>
+        <a href="#portfolio">Portfolio</a>
       </div>
       
     </nav>

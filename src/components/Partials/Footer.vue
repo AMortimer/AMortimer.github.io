@@ -13,13 +13,13 @@ import IconLinkedIn from '../Icons/IconLinkedIn.vue';
                 <div class="flex gap-6">
                     <a 
                         href="https://github.com/AMortimer" 
-                        class="text-zinc-300 border-none"
+                        class="text-zinc-300 border-none hover:text-yellow-300"
                         target="_blank">
                         <IconGithub />
                     </a>
                     <a 
                         href="https://www.linkedin.com/in/a-mortimer/" 
-                        class="text-zinc-300 border-none"
+                        class="text-zinc-300 border-none hover:text-yellow-300"
                         target="_blank">
                         <IconLinkedIn />
                     </a>
