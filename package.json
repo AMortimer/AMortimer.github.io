@@ -5,8 +5,8 @@
   "homepage": "https://amortimer.github.io/",
   "type": "module",
   "scripts": {
-    "predeploy" : "npm run build",
-    "deploy" : "gh-pages -d dist",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
@@ -17,7 +17,8 @@
     "nodemon": "^3.1.4",
     "requirejs": "^2.3.6",
     "vue": "^3.4.38",
-    "vue-router": "^4.4.0"
+    "vue-router": "^4.4.0",
+    "vue3-smooth-scroll": "^0.8.1"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.0.5",

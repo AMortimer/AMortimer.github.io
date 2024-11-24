@@ -7,8 +7,8 @@
       -->
       <a href="/">Home</a>
       <div class="flex gap-6">
-        <a href="#about">About Me</a>
-        <a href="#portfolio">Portfolio</a>
+        <a href="#about" v-smooth-scroll>About Me</a>
+        <a href="#portfolio" v-smooth-scroll>Portfolio</a>
       </div>
       
     </nav>
