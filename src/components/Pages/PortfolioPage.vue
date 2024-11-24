@@ -10,8 +10,8 @@ const portfolio = ref([]);
 
 onMounted(() => {
   fetch("data/portfolio.json")
-    .then((response) => response.json())
-    .then((json) => (portfolio.value = json))
+    .then(response => response.json())
+    .then(json => (triggers.value = json))
     .catch((err) => console.log(err.message));
 });
 </script>
@@ -27,7 +27,7 @@ onMounted(() => {
     </div>
   </div>-->
   <div>
-    <div class="py-10">
+    <div>
       <div class="container text-center">
         <h2>Portfolio</h2>
         <p>See what I've been working on</p>
@@ -36,7 +36,7 @@ onMounted(() => {
     <div class="relative">
       <div class="grid gap-32">
         <div
-          class="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 lg:mx-0 lg:max-w-none lg:grid-cols-3 lg:items-start lg:gap-y-10"
+          class="mx-auto grid max-w-2xl gap-x-8 gap-y-16 lg:mx-0 lg:max-w-none lg:grid-cols-3 lg:items-start lg:gap-y-10"
         >
           <div
             class="lg:sticky lg:top-6 lg:col-start-1 lg:col-span-1 lg:row-span-1 lg:row-start-1 lg:overflow-hidden"
@@ -136,7 +136,7 @@ onMounted(() => {
               <li>
                 <span class="inline-flex items-center gap-2"
                   ><IconPaintbrush class="text-amber-300" />Styled with
-                  SASS.</span
+                  Open Props.</span
                 >
               </li>
             </ul>

@@ -21,7 +21,7 @@ import IconDownArrow from '../Icons/IconDownArrow.vue';
           <p>
             <a 
               class="inline-flex items-center gap-2 border-none text-yellow-300 hover:text-amber-200"
-              href="#portfolio" 
+              href="#portfolio"
               v-smooth-scroll>
               <span>
                 View my portfolio

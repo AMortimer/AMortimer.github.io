@@ -1,15 +1,14 @@
-<template>    
-<body class="bg-gradient-to-tr from-zinc-800 to-slate-800 text-gray-50">
-    <div class="container">
+<template>
+<body class="container text-gray-100">
+    <header>
         <Navbar />
+    </header>
     <main>
         <RouterView />
     </main>
     <Footer />
-    </div>
-    
 </body>
-  
+
 </template>
 
 <script setup>
