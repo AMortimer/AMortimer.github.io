@@ -7,6 +7,7 @@ import IconDownArrow from '../Icons/IconDownArrow.vue';
     <div class="content-center">
       <div class="grid lg:grid-cols-2 items-center gap-8">
         <div>
+          <h1></h1>
           <h2>About Me</h2>
           <p>Originally from Edinburgh, Scotland, I have recently relocated to Vancouver, BC.</p>
           <p>
