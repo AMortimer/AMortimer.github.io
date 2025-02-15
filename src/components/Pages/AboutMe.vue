@@ -3,7 +3,7 @@ import IconDownArrow from '../Icons/IconDownArrow.vue';
 </script>
 
 <template>
-  <div class="h-full">
+  <div class="h-screen">
     <div class="content-center">
       <div class="grid lg:grid-cols-2 items-center gap-8">
         <div>

@@ -41,6 +41,44 @@ onMounted(() => {
           <div
             class="lg:sticky lg:top-6 lg:col-start-1 lg:col-span-1 lg:row-span-1 lg:row-start-1 lg:overflow-hidden"
           >
+            <h3>Sud Café</h3>
+            <p class="text-zinc-300 text-base">Freelance</p>
+            <p>
+              Website for a new French cafe in Vancouver's west-end.
+            </p>
+            <ul class="text-sm">
+              <li>
+                <span class="inline-flex items-center gap-2"
+                  ><IconWrench class="text-amber-300" />Designed and built with SquareSpace</span
+                >
+              </li>
+            </ul>
+            <p>
+              <a
+                href="https://www.sudcafe.net/"
+                target="_blank"
+                title="Sud Café (opens in new tab)"
+              >
+                Visit the live website
+              </a>
+            </p>
+          </div>
+          <div
+            class="lg:col-span-2 lg:col-start-2 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl"
+          >
+            <img
+              class="rounded shadow"
+              src="/src/images/sud-cafe/homepage.png"
+              alt="Screenshot of the homepage on desktop"
+            />
+          </div>
+        </div>
+        <div
+          class="mx-auto grid max-w-2xl gap-x-8 gap-y-16 lg:mx-0 lg:max-w-none lg:grid-cols-3 lg:items-start lg:gap-y-10"
+        >
+          <div
+            class="lg:sticky lg:top-6 lg:col-start-1 lg:col-span-1 lg:row-span-1 lg:row-start-1 lg:overflow-hidden"
+          >
             <h3>Loomer Medical Group</h3>
             <p class="text-zinc-300 text-base">Tree View Designs</p>
             <p>
@@ -50,7 +88,7 @@ onMounted(() => {
             <ul class="text-sm">
               <li>
                 <span class="inline-flex items-center gap-2"
-                  ><IconWrench class="text-amber-300" />Built with custom headless CMS</span
+                  ><IconWrench class="text-amber-300" />Built with CMS</span
                 >
               </li>
               <li>
@@ -79,33 +117,11 @@ onMounted(() => {
           <div
             class="lg:col-span-2 lg:col-start-2 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl"
           >
-            <div class="grid grid-cols-2 gap-8">
-              <img
-                class="col-span-2 rounded shadow"
-                src="/src/images/loomer-medical-group/Desktop-1.png"
-                alt="Screenshot of the homepage on desktop"
-              />
-              <img
-                class="col-span-2 rounded shadow"
-                src="/src/images/loomer-medical-group/Desktop-Training.png"
-                alt="Screenshot of the Training page on desktop"
-              />
-              <img
-                class="col-span-2 rounded shadow"
-                src="/src/images/loomer-medical-group/Desktop-Carehome-2.png"
-                alt="Screenshot of the Care Home page"
-              />
-              <img
-                src="/src/images/loomer-medical-group/Mobile-2.png"
-                alt="Screenshot on mobile"
-                class="h-56 mx-auto"
-              />
-              <img
-                src="/src/images/loomer-medical-group/Mobile-3.png"
-                alt="Screenshot on mobile"
-                class="h-56 mx-auto"
-              />
-            </div>
+            <img
+              class="rounded shadow"
+              src="/src/images/loomer-medical-group/homepage.png"
+              alt="Screenshot of the homepage on desktop"
+            />
           </div>
         </div>
         <div
@@ -123,14 +139,14 @@ onMounted(() => {
             <ul class="text-sm">
               <li>
                 <span class="inline-flex items-center gap-2"
-                  ><IconLightbulb class="text-amber-300" />Prototyped using
+                  ><IconLightbulb class="text-amber-300" />Designed using
                   Figma.</span
                 >
               </li>
               <li>
                 <span class="inline-flex items-center gap-2"
-                  ><IconWrench class="text-amber-300" />Built and deployed using
-                  HTML, JavaScript, Astro.</span
+                  ><IconWrench class="text-amber-300" />Built with
+                  HTML, JavaScript, Astro. Deployed with Netlify</span
                 >
               </li>
               <li>
@@ -182,7 +198,7 @@ onMounted(() => {
             <ul class="text-sm">
               <li>
                 <span class="inline-flex items-center gap-2"
-                  ><IconWrench class="text-amber-300" />Built with custom headless
+                  ><IconWrench class="text-amber-300" />Built with
                   CMS.</span
                 >
               </li>
@@ -206,33 +222,11 @@ onMounted(() => {
           <div
             class="lg:col-span-2 lg:col-start-2 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl"
           >
-            <div class="grid grid-cols-2 gap-8">
               <img
-                src="/src/images/camden-health-partnership/Desktop-1.png"
+                src="/src/images/camden-health-partnership/home-page.png"
                 alt="Screenshot of the website"
-                class="col-span-2 rounded shadow"
+                class="rounded shadow"
               />
-              <img
-                class="col-span-2 rounded shadow"
-                src="/src/images/camden-health-partnership/Desktop-3.png"
-                alt="Screenshot of the website"
-              />
-              <img
-                class="col-span-2 rounded shadow"
-                src="/src/images/camden-health-partnership/Desktop-Contact.png"
-                alt="Screenshot of the website"
-              />
-              <img
-                src="/src/images/camden-health-partnership/Mobile-1.png"
-                alt="Screenshot of the website on a mobile"
-                class="h-56 mx-auto"
-              />
-              <img
-                src="/src/images/camden-health-partnership/Mobile-2.png"
-                alt="Screenshot of the website on a mobile"
-                class="h-56 mx-auto"
-              />
-            </div>
           </div>
         </div>
         <div
@@ -275,27 +269,18 @@ onMounted(() => {
           <div
             class="lg:col-span-2 lg:col-start-2 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl"
           >
-            <div class="grid grid-cols-2 gap-8 items-end">
-              <img
-                src="/src/images/KMP/Desktop-Landing.png"
+          <div class="grid gap-12">
+            <img
+                src="/src/images/KMP/landing-page.png"
                 alt="Screenshot of the website"
-                class="col-span-2 rounded shadow"
+                class="rounded shadow"
               />
               <img
-                class="col-span-2 rounded shadow"
-                src="/src/images/KMP/Desktop-2.png"
+                class="rounded shadow"
+                src="/src/images/KMP/portland-home.png"
                 alt="Screenshot of the website"
               />
-              <img
-                src="/src/images/KMP/Laptop-1.png"
-                alt="Screenshot of the website on a laptop"
-              />
-              <img
-                src="/src/images/KMP/Mobile-1.png"
-                alt="Screenshot of the website on a mobile"
-                class="h-56 mx-auto"
-              />
-            </div>
+          </div>
           </div>
         </div>
         <div
@@ -313,7 +298,7 @@ onMounted(() => {
             <ul class="text-sm">
               <li>
                 <span class="inline-flex items-center gap-2"
-                  ><IconWrench class="text-amber-300" />Built using
+                  ><IconWrench class="text-amber-300" />Designed and built with
                   SquareSpace.</span
                 >
               </li>
@@ -331,23 +316,11 @@ onMounted(() => {
           <div
             class="lg:col-span-2 lg:col-start-2 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl"
           >
-            <div class="grid grid-cols-2 gap-8">
-              <img
-                src="/src/images/TROE/Desktop-3.png"
-                alt="Screenshot of the website"
-                class="col-span-2 rounded shadow"
-              />
-              <img
-                src="/src/images/TROE/mobile-3.png"
-                alt="Screenshot of the website on a mobile"
-                class="h-56 mx-auto"
-              />
-              <img
-                src="/src/images/TROE/mobile-1.png"
-                alt="Screenshot of the website on a mobile"
-                class="h-56 mx-auto"
-              />
-            </div>
+            <img
+              src="/src/images/TROE/contents-page.png"
+              alt="Screenshot of the website"
+              class="rounded shadow"
+            />
           </div>
         </div>
       </div>
