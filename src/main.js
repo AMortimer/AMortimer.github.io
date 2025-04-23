@@ -1,7 +1,12 @@
 import { createApp } from 'vue'
 import App from './App.vue'
 import router from './router/index'
-import './index.css'
+import './assets/css/index.css'
 import VueSmoothScroll from 'vue3-smooth-scroll'
+import Vue3Marquee from 'vue3-marquee'
 
-createApp(App).use(router).use(VueSmoothScroll).mount('#app')
+const app = createApp(App).use(Vue3Marquee).use(VueSmoothScroll)
+
+app.use(router)
+
+app.mount('#app')

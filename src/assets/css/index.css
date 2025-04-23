@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: Montserrat, system-ui, sans-serif;
+  }
+  h1,h2,h3,h4,h5,h6 {
+    font-family: Raleway, system-ui, sans-serif;
+  }
+    h1,h2,h3,h4,h5,h6 {
+      @apply font-medium;
+      @apply leading-normal;
+    }
+    h1 {
+      @apply text-5xl lg:text-7xl pb-4;
+    }
+    h2 {
+      @apply text-4xl lg:text-5xl pb-3 font-bold;
+    }
+    h3 {
+      @apply text-2xl pb-3 font-semibold;
+    }
+    p {
+        @apply leading-relaxed;
+        @apply mb-6;
+    }
+    ul {
+      @apply mb-6;
+    }
+    a {
+      @apply text-indigo-900 hover:text-indigo-700 dark:text-amber-200 dark:hover:text-amber-300 border-b-2 border-transparent hover:border-indigo-500 dark:hover:border-amber-300 font-medium transition duration-300 ease-in-out;
+    }
+  }

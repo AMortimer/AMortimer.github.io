@@ -19,6 +19,7 @@
     "vue": "^3.4.38",
     "vue-router": "^4.4.0",
     "vue-use-fixed-header": "^2.0.3",
+    "vue3-marquee": "^4.2.2",
     "vue3-smooth-scroll": "^0.8.1"
   },
   "devDependencies": {
