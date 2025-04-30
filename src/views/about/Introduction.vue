@@ -7,7 +7,7 @@ import Segment from '@/layouts/partials/Segment.vue';
 <template>
   <Segment>
     <StickyGrid 
-        imageUrl="/src/assets/images/Me/profile-pic.jpeg"
+        imageUrl="/assets/images/me/profile-pic.jpeg"
         imageClass="rounded-full mx-auto h-auto lg:h-96"
         >
         <h2>About Me</h2>

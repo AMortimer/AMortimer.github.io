@@ -1,7 +1,7 @@
 import { createApp } from 'vue'
 import App from './App.vue'
 import router from './router/index'
-import './assets/css/index.css'
+import '/src/css/index.css'
 import VueSmoothScroll from 'vue3-smooth-scroll'
 import Vue3Marquee from 'vue3-marquee'
 

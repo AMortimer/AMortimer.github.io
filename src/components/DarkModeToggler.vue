@@ -7,7 +7,7 @@ let darkMode = ref(localStorage.getItem('dark'));
 
 function saveDarkMode() {
     localStorage.setItem('dark', darkMode.value);
-    console.log(darkMode.value);
+    // console.log(darkMode.value);
 }
 
 const applyDarkMode = () => document.body.classList[

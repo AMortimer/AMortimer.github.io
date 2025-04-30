@@ -3,12 +3,12 @@ import Scroller from '../../components/Scroller.vue';
 import Segment from '@/layouts/partials/Segment.vue';
 
 const skills = [
-    '/src/assets/images/Logos/html.svg',
-    '/src/assets/images/Logos/tailwindcss.svg',
-    '/src/assets/images/Logos/vuejs.svg',
-    '/src/assets/images/Logos/javascript.svg',
-    '/src/assets/images/Logos/css.svg',
-    '/src/assets/images/Logos/squarespace.svg'
+    '/assets/images/logos/html.svg',
+    '/assets/images/logos/tailwindcss.svg',
+    '/assets/images/logos/vuejs.svg',
+    '/assets/images/logos/javascript.svg',
+    '/assets/images/logos/css.svg',
+    '/assets/images/logos/squarespace.svg'
 ]
 
 </script>

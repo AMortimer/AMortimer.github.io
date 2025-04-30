@@ -12,7 +12,7 @@ import IconRocket from "@/components/icons/IconRocket.vue";
   <div class="grid gap-32">
     <!-- Sud Cafe -->
     <PortfolioItem
-      image="/src/assets/images/sud-cafe/homepage.png"
+      image="/assets/images/sud-cafe/homepage.png"
       company="Sud Café"
       workType="Freelance"
       websiteUrl="https://www.sudcafe.net/"
@@ -30,7 +30,7 @@ import IconRocket from "@/components/icons/IconRocket.vue";
     </PortfolioItem>
     <!-- Loomer Medical -->
     <PortfolioItem
-      image="/src/assets/images/loomer-medical-group/homepage.png"
+      image="/assets/images/loomer-medical-group/homepage.png"
       company="Loomer Medical Group"
       workType="Tree View Designs"
       websiteUrl="https://www.loomermedical.co.uk/"
@@ -63,7 +63,7 @@ import IconRocket from "@/components/icons/IconRocket.vue";
 
     <!-- SMESU -->
     <PortfolioItem
-      image="/src/assets/images/SMESU/homepage.png"
+      image="/assets/images/smesu/homepage.png"
       company="SMESU Explorer Scouts"
       workType="Freelance"
       websiteUrl="https://smesu.netlify.app/"
@@ -95,7 +95,7 @@ import IconRocket from "@/components/icons/IconRocket.vue";
     </PortfolioItem>
     <!-- Camden Health Partners -->
     <PortfolioItem
-      image="/src/assets/images/camden-health-partnership/home-page.png"
+      image="/assets/images/camden-health-partnership/home-page.png"
       company="Camden Health Partners"
       workType="Tree View Designs"
     >
@@ -130,7 +130,7 @@ import IconRocket from "@/components/icons/IconRocket.vue";
 
     <!-- KMP -->
     <PortfolioItem
-      image="/src/assets/images/kmp/portland-home.png"
+      image="/assets/images/kmp/portland-home.png"
       company="Keston and Moorings Practice"
       workType="Tree View Designs"
       websiteUrl="https://www.kestonmooringsmedical.co.uk/"
@@ -157,7 +157,7 @@ import IconRocket from "@/components/icons/IconRocket.vue";
     </PortfolioItem>
     <!-- TROE -->
     <PortfolioItem
-      image="/src/assets/images/TROE/contents-page.png"
+      image="/assets/images/troe/contents-page.png"
       company="The Rules of English"
       workType="Freelance"
       websiteUrl="https://therulesofenglish.com/"
