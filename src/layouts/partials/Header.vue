@@ -42,6 +42,7 @@ window.onscroll = function () {
     <header 
         id="header" 
         class="sticky top-0 bg-white dark:bg-slate-900 bg-opacity-95 dark:bg-opacity-95 py-2 shadow z-50 transition duration-500 ease-in-out"
+        style="transition: 300ms ease-in-out;"
         >
         <!-- :class="{ 
           '-top-50': !headerVisible.value,

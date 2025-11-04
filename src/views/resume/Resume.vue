@@ -11,12 +11,34 @@ import AccordionPanel from '@/components/AccordionPanel.vue';
             <h2>Resume</h2>
             <h3 class="mt-10">Work Experience</h3>
             <AccordionPanel
+                aria-title="WordPress Designer / Developer"
+                title="WordPress Designer / Developer"
+                >
+                <ResumeItem
+                    company="Wine Works | BC, Canada - Remote"
+                    dates="October 2025 to present"
+                    >
+                    <li>
+                        Develop WordPress websites and modify styles as required by brand guidelines.
+                    </li>
+                    <li>
+                        Build custom WordPress themes from supplied designs, ensuring they are responsive and ADA-compliant.
+                    </li>
+                    <li>
+                        Support existing websites by adjusting content and adding new layouts as needed.
+                    </li>
+                    <li>
+                        Review and collaborate on current projects as they progress through the development lifecycle.
+                    </li>
+                </ResumeItem>
+            </AccordionPanel>
+            <AccordionPanel
                 aria-title="Lead Front End Designer"
                 title="Lead Front End Designer"
                 >
                 <ResumeItem
                     company="Tree View Designs | Remote"
-                    dates="March 2023 to present"
+                    dates="March 2023 to October 2025"
                     >
                     <li>
                         I lead the design and maintenance of web templates using Tailwind CSS, HTML, and a 
@@ -98,7 +120,6 @@ import AccordionPanel from '@/components/AccordionPanel.vue';
                 title="View my skills"
                 >
                 <ResumeItem
-                    
                     >
                     <li>
                         <span class="font-semibold">Content presentation:</span> web content and user experience design, web accessibility standards

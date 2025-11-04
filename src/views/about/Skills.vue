@@ -8,14 +8,15 @@ const skills = [
     '/assets/images/logos/vuejs.svg',
     '/assets/images/logos/javascript.svg',
     '/assets/images/logos/css.svg',
-    '/assets/images/logos/squarespace.svg'
+    '/assets/images/logos/wordpress.svg',
+    '/assets/images/logos/squarespace.svg',
+    '/assets/images/logos/sql.svg'
 ]
-
 </script>
 
 <template>
-    <Segment>   
-        <Scroller>
+    <Segment class="overflow-hidden">
+        <Scroller class="overflow-hidden">
             <img
                 v-for="skill in skills" 
                 :key="skill"
